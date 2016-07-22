@@ -40,3 +40,7 @@
 .box.winner{
 	background-color: green;
 }
+
+.button-container{
+	height: 30px;
+}
