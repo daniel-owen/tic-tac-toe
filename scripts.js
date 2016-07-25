@@ -15,6 +15,9 @@ var player1 = []; // array where we will stash the squares player1 has checked
 var player2 = []; // array for player2
 var someoneWon = false;
 
+$('.box').click(function(){
+	markSquare(this);
+});
 
 function markSquare(square){
 	if (someoneWon){
